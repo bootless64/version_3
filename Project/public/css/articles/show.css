@@ -1,0 +1,37 @@
+
+.main-image {
+    aspect-ratio: 16 / 9;
+}
+.main-image > img {
+    border-radius: 10px;
+}
+
+.article-content img {
+    border-radius: 10px;
+}
+.article-content table {
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.file-icon {
+    height: 30px;
+    width: 30px;
+}
+
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+@media (min-width: 768px) {
+
+    .main-image {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+

@@ -1,0 +1,87 @@
+
+body {
+    background-color: white;
+}
+
+#mainCarousel {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.carousel-item {
+    aspect-ratio: 5 / 2;
+}
+.carousel-item img {
+    object-fit: cover;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    right: 0;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    height: min(75px, 12vw);
+    width: min(75px, 12vw);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    margin: auto;
+    transform: rotate(180deg);
+}
+.carousel-control-prev {
+    right: 0;
+    left: auto;
+}
+.carousel-control-next {
+    left: 0;
+    right: auto;
+}
+
+.active.carousel-item-start, .carousel-item-prev:not(.carousel-item-end) {
+    transform: translateX(100%);
+}
+.active.carousel-item-end, .carousel-item-next:not(.carousel-item-start) {
+    transform: translateX(-100%);
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 24px;
+    height: 8px;
+    border: none;
+    border-radius: 2px;
+}
+
+
+.card {
+    height: 450px;
+    text-align: justify;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.card img {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+}
+
+.custom-card {
+    height: 150px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.card:hover, .custom-card:hover {
+    background-color: #343a40;
+    color: white;
+    transform: translateY(-10px);
+}
+
+
+@media (max-width: 576px) {
+
+    .carousel-caption {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        margin-bottom: -10px;
+    }
+    h3 {
+        font-size: medium;
+    }
+
+}

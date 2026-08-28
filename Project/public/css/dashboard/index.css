@@ -1,0 +1,16 @@
+
+.offcanvas-lg {
+    max-width: 75vw;
+    min-width: 240px;
+}
+
+#menuButton {
+    width: 45px;
+    height: 60px;
+    border: solid gray 1px;
+    z-index: 5;
+}
+
+#sidebarMenu {
+    min-height: 50vh;
+}

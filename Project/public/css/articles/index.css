@@ -1,0 +1,7 @@
+
+.card img {
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    background-color: lightgray;
+}
+

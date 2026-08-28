@@ -1,0 +1,53 @@
+
+.note-btn-group {
+    direction: ltr;
+}
+
+.note-dropdown-menu {
+    text-align: center;
+    right: 0 !important;
+    left: auto !important;
+}
+
+.note-align, .note-list {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+
+.note-table {
+    right: auto !important;
+    left: 0 !important;
+}
+
+.note-icon-caret {
+    display: none;
+}
+
+
+
+.note-modal .close {
+    float: left;
+    opacity: 0.5;
+}
+.note-modal .close:hover {
+    opacity: 1;
+}
+.note-modal .close .note-icon-close {
+    font-size: 30px;
+}
+.note-image-url, .note-link-url {
+    direction: ltr;
+}
+.checkbox > label > input {
+    margin: 5px;
+}
+.note-modal-footer {
+    display: flex;
+    margin-bottom: 10px;
+}
+.note-btn-primary {
+    background-color: #0d6efd !important;
+    border: none;
+    margin: auto !important;
+}
+

@@ -1,0 +1,14 @@
+
+.form-header {
+    border-bottom: solid gray 1px;
+    padding-bottom: 1rem;
+}
+
+#formLogo {
+    height: 90px;
+    width: 90px;
+}
+#formLogo > img {
+    max-width: 100%;
+    max-height: 100%;
+}
